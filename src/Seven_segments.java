@@ -3,12 +3,12 @@ import java.util.Objects;
 public class Seven_segments {
     public static void main(String[] args) {
         String[][] score = new String[][]{{"|", "|", "|", "|"}, {"|", "|", "|", "|"}, {"|", "|", "|", "|"}, {"|", "|", "|", "|"}, {"|", "|", "|", "|"}};
-        for (int strings = 0; strings < score.length; strings++) {
+        for (int strings = 0; strings < score.length; strings+=2) {
             for (int i = 1; i < score.length; i++) {
-                int j;
-                for (j = 0; j < score.length; j++) {
-                    int k;
-                    for (k = 1; k < score.length; k++) {
+
+                for (int j = 0; j < score.length; j++) {
+
+                    for (int k = 1; k < score.length; k++) {
 
 
                     }

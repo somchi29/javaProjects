@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class task12 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //initialize a varable
+        //initialize a variable
         int counter = 0, score = 10;
         int sum = 0;
         System.out.println("Enter a score : ");
-        //whileloop
+        //while loop
         while (counter < 10) {
             //concatinate
             sum += input.nextInt();

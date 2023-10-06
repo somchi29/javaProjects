@@ -7,9 +7,9 @@ public class subby {
         return subString;
     }
     public static void main(String[] args) {
-        System.out.println(subString("Computer", 0));
+        System.out.println(subString("Computer", 6));
         String word = "11100111";
-        System.out.println(word.substring(3));
+        System.out.println(word.substring(0));
 
     }
 }
